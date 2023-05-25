@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "title": "Leonardo",
+      "price": 100,
+      "img": "https://cdn.shopify.com/s/files/1/2528/8830/products/Leonardo566pin_500x.png?v=1619393997",
+      "id": 1
+    },
+    {
+      "title": "Raphael",
+      "price": 200,
+      "img": "https://cdn.shopify.com/s/files/1/2528/8830/products/Raphael569pin_500x.png?v=1619394645",
+      "id": 2
+    },
+    {
+      "title": "Donatello",
+      "price": 300,
+      "img": "https://cdn.shopify.com/s/files/1/2528/8830/products/Donatello568pin_500x.png?v=1619393910",
+      "id": 3
+    },
+    {
+      "title": "Michaelangelo",
+      "price": 400,
+      "img": "https://cdn.shopify.com/s/files/1/2528/8830/products/Michaelangelo567pin_500x.png?v=1619394173",
+      "id": 4
+    }
+  ]
+}

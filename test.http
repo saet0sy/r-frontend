@@ -1,0 +1,32 @@
+### Get Products
+
+GET http://127.0.0.1:3000/products HTTP/1.1
+
+### Get Product
+
+GET http://127.0.0.1:3000/products/1 HTTP/1.1
+
+### Create Product
+
+POST http://127.0.0.1:3000/products/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Product 4"
+}
+
+### Update Product
+
+PUT http://127.0.0.1:3000/products/4 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Product 4"
+}
+
+### Delete Product
+
+DELETE http://127.0.0.1:3000/products/4 HTTP/1.1
+
+## CRUD - CREATE, READ, UPDATE, DELETE
