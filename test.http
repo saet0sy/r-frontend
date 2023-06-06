@@ -1,6 +1,6 @@
 ### Get Products
 
-GET http://127.0.0.1:3000/products HTTP/1.1
+GET http://127.0.0.1:3000/products?_page=1&_limit_10 HTTP/1.1
 
 ### Get Product
 
@@ -29,4 +29,5 @@ Content-Type: application/json
 
 DELETE http://127.0.0.1:3000/products/4 HTTP/1.1
 
-## CRUD - CREATE, READ, UPDATE, DELETE
+###
+GET http://localhost:3000/products?q=man HTTP/1.1
